@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  run:
+    expose:
+      - '8087'
+    ports:
+      - '8079:8087'
+    container_name: mutant-service
+    image: mutant-service:latest
