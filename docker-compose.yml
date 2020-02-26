@@ -4,6 +4,6 @@ services:
     expose:
       - '8087'
     ports:
-      - '8079:8087'
+      - '8080:8087'
     container_name: mutant-service
     image: mutant-service:latest
